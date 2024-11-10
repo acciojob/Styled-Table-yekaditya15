@@ -1,1 +1,54 @@
 /* your code */
+/* General Table Styling */
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Alternating Row Colors */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Table Header */
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Table font and color for better readability */
+td, th {
+    font-size: 16px;
+}
+
+table th, table td {
+    width: 150px;
+    text-align: center;
+}
